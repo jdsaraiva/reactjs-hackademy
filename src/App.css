@@ -3,17 +3,36 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  color: #bbb;
+  color: #bbb!important;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  background: #1a1a1a;
+  background: #1a1a1a!important;
   word-wrap: break-word;
   -ms-word-wrap: break-word;
   overflow-x: hidden;
 
+}
+
+.row-full{
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 100px;
+  margin-top: 100px;
+  left: 50%;
+}
+
+.row-padding {
+  padding-top: 90px !important;
+  padding-bottom: 90px !important;
+  background-color: #1a1a1a !important;
+}
+
+span {
+  color: #bbb;
 }
 
 #particle-canvas {
@@ -42,6 +61,36 @@ body {
 }
 
 .section-title:after {
+  content: "";
+  display: block;
+  margin: 20px auto 40px;
+  width: 100px;
+  height: 2px;
+  background-color: #47a6db;
+}
+
+img.thumbnail {
+  max-width: 100%;
+}
+
+h1.title {
+  text-align:center;
+  line-height: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+span.description {
+  display:block;
+  font-size:14px;
+  text-align:center;
+}
+
+.separator {
   content: "";
   display: block;
   margin: 20px auto 40px;
