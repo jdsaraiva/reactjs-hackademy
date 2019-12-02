@@ -14,6 +14,8 @@ body {
   -ms-word-wrap: break-word;
   overflow-x: hidden;
 
+  text-align:center!important;
+
 }
 
 .row-full{
@@ -28,7 +30,11 @@ body {
 .row-padding {
   padding-top: 90px !important;
   padding-bottom: 90px !important;
-  background-color: #1a1a1a !important;
+}
+
+.title-padding {
+  padding-top: 45px !important;
+  padding-bottom: 45px !important;
 }
 
 span {
@@ -93,8 +99,15 @@ span.description {
 .separator {
   content: "";
   display: block;
-  margin: 20px auto 40px;
+  margin: 20px auto 20px;
   width: 100px;
   height: 2px;
   background-color: #47a6db;
+}
+
+.testimonials {
+  background:url("imgs/testimonials.jpg");
+  background-size:cover;
+
+  padding-bottom:90px;
 }

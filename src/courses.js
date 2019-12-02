@@ -6,11 +6,8 @@ import ImageToggleOnMouseOver from './imageTogglerOnMouseOver.js'
 class Courses extends Component {
 
     render(){
-
         return (
-
             <Container>
-
                 <Row className="row-padding">
                     <Col xs="12" sm="4" >
                         <ImageToggleOnMouseOver
@@ -45,9 +42,7 @@ class Courses extends Component {
                         <span className="description">Our goal is to share the passion for IT with the world, you'll find practical lessons based on real life situation that will help you out even if you are a student, professional our just curious to learn something new.</span>
                     </Col>
                 </Row>
-
             </Container>
-
         )
     }
 }
