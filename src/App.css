@@ -18,6 +18,10 @@ body {
 
 }
 
+a{
+  color:white!important;
+}
+
 .row-full{
   width: 100vw;
   position: relative;
@@ -108,6 +112,28 @@ span.description {
 .testimonials {
   background:url("imgs/testimonials.jpg");
   background-size:cover;
-
   padding-bottom:90px;
+}
+
+.ourCourses {
+  background:url("imgs/bgCourses.jpg");
+  background-size:cover;
+  padding-bottom:90px;
+}
+
+div.card {
+    background: none;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-bottom:15px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+}
+
+.card-text {
+    text-align: justify;
 }

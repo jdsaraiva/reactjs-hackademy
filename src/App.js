@@ -3,7 +3,7 @@ import Header from './header.js';
 import Courses from './courses.js';
 import Testimonials from './testimonials';
 import Interval from './interval';
-import findOurCourses from './findOurCourses';
+import FindOurCourses from './FindOurCourses';
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Courses/>
       <Testimonials/>
       <Interval/>
-      <findOurCourses/>
+      <FindOurCourses/>
     </div>
   );
 }
