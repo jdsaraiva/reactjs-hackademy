@@ -42,14 +42,14 @@ class Testimonials extends Component {
         <Container className="testimonials" fluid="true">
 
             <Row className="row-padding">
-                <Col xs="6" sm="4"/>
-                <Col xs="6" sm="4"><h2 style={testimonialsTitleStyle}>Students testimonials</h2></Col>
-                <Col xs="6" sm="4"/>
+                <Col xs="0" sm="4"/>
+                <Col xs="12" sm="4"><h2 style={testimonialsTitleStyle}>Students testimonials</h2></Col>
+                <Col xs="0" sm="4"/>
             </Row>
 
             <Row className="title-padding">
 
-                <Col xs="6" sm="1"></Col>
+                <Col xs="0" sm="1"></Col>
 
                 <Col xs="6" sm="5">
                     <div style={testimonialStyle}>
@@ -73,13 +73,13 @@ class Testimonials extends Component {
                     </div>
                 </Col>
 
-                <Col xs="6" sm="1"></Col>
+                <Col xs="0" sm="1"></Col>
 
             </Row>
 
             <Row className="title-padding">
 
-                <Col xs="6" sm="1"></Col>
+                <Col xs="0" sm="1"></Col>
 
                 <Col xs="6" sm="5">
                     <div style={testimonialStyle}>
@@ -103,13 +103,13 @@ class Testimonials extends Component {
                     </div>
                 </Col>
 
-                <Col xs="6" sm="1"></Col>
+                <Col xs="0" sm="1"></Col>
 
             </Row>
 
             <Row className="title-padding">
 
-                <Col xs="6" sm="1"></Col>
+                <Col xs="0" sm="1"></Col>
 
                 <Col xs="6" sm="5">
                     <div style={testimonialStyle}>
@@ -133,14 +133,14 @@ class Testimonials extends Component {
                     </div>
                 </Col>
 
-                <Col xs="6" sm="1"></Col>
+                <Col xs="0" sm="1"></Col>
 
             </Row>
 
             <Row style={{textAlign:"center"}} >
-                <Col xs="6" sm="4"/>
-                <Col xs="6" sm="4"><span>All of these reviews, and more, are available <a style={{color:"white"}}  href="https://www.udemy.com/user/dessain-saraiva/">HERE.</a></span></Col>
-                <Col xs="6" sm="4"/>
+                <Col xs="0" sm="4"/>
+                <Col xs="12" sm="4"><span>All of these reviews, and more, are available <a style={{color:"white"}}  href="https://www.udemy.com/user/dessain-saraiva/">HERE.</a></span></Col>
+                <Col xs="0" sm="4"/>
             </Row>
 
         </Container>
