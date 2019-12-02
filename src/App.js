@@ -3,7 +3,8 @@ import Header from './header.js';
 import Courses from './courses.js';
 import Testimonials from './testimonials';
 import Interval from './interval';
-import FindOurCourses from './FindOurCourses';
+import FindOurCourses from './findOurCourses';
+import Footer from './footer';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Testimonials/>
       <Interval/>
       <FindOurCourses/>
+      <Footer/>
     </div>
   );
 }
