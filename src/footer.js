@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import Particles from 'react-particles-js';
 import {Col, Container, Row} from "reactstrap";
 
 class Footer extends Component {
